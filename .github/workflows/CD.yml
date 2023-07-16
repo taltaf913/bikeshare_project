@@ -3,7 +3,7 @@ name: CD Pipeline
 # Only trigger, when the build workflow succeeded
 on:
   workflow_run:
-    workflows: ["CI Pipeline"]
+    workflows: ["CIPipeline"]
     types:
       - completed
 
